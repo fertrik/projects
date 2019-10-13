@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+chmod a+x GenTable
+chmod a+x Crack
+
+time ./GenTable 12
+md5sum rainbow
+du -sh rainbow
+time ./Crack 12 CHALLENGE#1
+
+
